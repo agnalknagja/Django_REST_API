@@ -1,5 +1,6 @@
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import User, Group, Post, Catagory, ContentType
 from rest_framework import serializers
+
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
