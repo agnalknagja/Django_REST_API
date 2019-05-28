@@ -9,7 +9,7 @@ router.register('user', views.UserViewSet)
 router.register('post', views.PostViewSet)
 router.register('comment', views.CommentViewSet)
 router.register('category', views.CategoryViewSet)
-router.register('content-type', views.ContentTypeViewSet)
+router.register('contenttype', views.ContentTypeViewSet)
 
 urlpatterns = [
   path('', include(router.urls))
